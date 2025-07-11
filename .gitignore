@@ -11,7 +11,3 @@
 # WEB-INF ディレクトリと中身を許可
 !/WEB-INF/
 !/WEB-INF/src/pnw/common/**
-
-# その他細かい無視フォルダ、ファイル
-/WEB-INF/web.xml
-/WEB-INF/src/pnw/temp/
