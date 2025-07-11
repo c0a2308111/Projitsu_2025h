@@ -1,4 +1,4 @@
-package pnw.common;
+package pnw.posts;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -15,7 +15,6 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
 import pnw.common.PnwDB;
-import pnw.common.TopicList;
 
 import java.sql.Timestamp;
 

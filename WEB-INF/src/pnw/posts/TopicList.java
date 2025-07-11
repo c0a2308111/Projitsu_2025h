@@ -1,4 +1,4 @@
-package pnw.common;
+package pnw.posts;
 
 public class TopicList {
     // 投稿内容を管理するリスト

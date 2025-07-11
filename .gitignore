@@ -4,9 +4,15 @@
 # .gitignore 自身は除外リストのままでは困るので追跡許可
 !.gitignore
 
-# thread ディレクトリと中身を許可
+# JSPディレクトリと中身を許可
 !/thread/
 !/thread/**
+!/mainpage
+!/mainpage/**
+!/make/
+!/make/**
+!/search/
+!/search/**
 
 # WEB-INF ディレクトリと中身を許可
 !/WEB-INF/
