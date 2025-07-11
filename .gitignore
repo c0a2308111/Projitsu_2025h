@@ -10,4 +10,4 @@
 
 # WEB-INF ディレクトリと中身を許可
 !/WEB-INF/
-!/WEB-INF/**
+!/WEB-INF/src/pnw/common/**
