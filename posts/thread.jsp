@@ -1,6 +1,6 @@
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <%@ page import="java.util.*, java.util.Map" %>
-<%@ page import="pnw.common.TopicList" %>
+<%@ page import="pnw.posts.TopicList" %>
 <%
     Integer thread_id = (Integer)request.getAttribute("thread_id");
     String thread_title = (String)request.getAttribute("thread_title");
@@ -14,7 +14,7 @@
 <head>
   <meta charset="UTF-8">
   <title><%= thread_title %> | TUT総合掲示板</title>
-  <link rel="stylesheet" href="<%= request.getContextPath() %>/thread/style.css">
+  <link rel="stylesheet" href="<%= request.getContextPath() %>/posts/style.css">
 </head>
 <body>
 

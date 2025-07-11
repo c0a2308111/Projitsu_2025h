@@ -5,8 +5,8 @@
 !.gitignore
 
 # JSPディレクトリと中身を許可
-!/thread/
-!/thread/**
+!/posts/
+!/posts/**
 !/mainpage
 !/mainpage/**
 !/make/
